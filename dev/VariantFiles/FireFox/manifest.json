@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Right click raid",
+  "description": "Adds context menu on twitch allowing easy raid",
+  "version": "1.0.3",
+  "applications": {
+    "gecko": {
+      "id": "RightClickRaid@Robert-Walker.com"
+    }
+  },
+  "icons": {
+    "16": "images/Icon16.png",
+    "48": "images/Icon48.png",
+   "128":"images/Icon128.png" 
+  },
+  "permissions": ["contextMenus","storage","identity"],
+  "browser_action": {
+    "default_popup": "./popup/LoggedOut.html"
+  },
+  "background": {
+    "scripts": ["./libraries/tmi.min.js","./libraries/jsrsasign-all-min.js","Storage.js","TwitchInterface.js","Background.js"]
+  },
+  "content_scripts": [{
+    "matches": ["https://www.twitch.tv/*"],
+    "js": ["Content.js"]
+  }]
+}

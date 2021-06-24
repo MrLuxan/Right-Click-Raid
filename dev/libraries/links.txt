@@ -1,0 +1,2 @@
+tmi.min.js v1.8.3 - https://github.com/tmijs/tmi.js/releases/download/v1.8.3/tmi.min.js
+jsrsasign-all-min.js v10.3.0 - https://github.com/kjur/jsrsasign/archive/refs/tags/10.3.0.zip
