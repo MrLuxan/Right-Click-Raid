@@ -2,7 +2,7 @@ class TwitchInterfaceClass
 {
     BROWSER_API = chrome;
 
-    APP_CLIENT_ID = "";
+    APP_CLIENT_ID = "qwwlpze7zs8a9kd2geciyx61dk0xie";
     CLIENT_ID = encodeURIComponent(this.APP_CLIENT_ID);
     REDIRECT_URI = encodeURIComponent(this.BROWSER_API.identity.getRedirectURL());
     RESPONSE_TYPE = encodeURIComponent("token id_token");

@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Right click raid",
   "description": "Adds context menu on twitch allowing easy raid",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "applications": {
     "gecko": {
       "id": "RightClickRaid@Robert-Walker.com"

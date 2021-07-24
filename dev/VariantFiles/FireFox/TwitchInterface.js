@@ -4,7 +4,7 @@ class TwitchInterfaceClass
 
         this.BROWSER_API = browser;
 
-        this.APP_CLIENT_ID = "";
+        this.APP_CLIENT_ID = "qwwlpze7zs8a9kd2geciyx61dk0xie";
         this.CLIENT_ID = encodeURIComponent(this.APP_CLIENT_ID);
         this.REDIRECT_URI = encodeURIComponent(this.BROWSER_API.identity.getRedirectURL());
         this.RESPONSE_TYPE = encodeURIComponent("token id_token");

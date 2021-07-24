@@ -1,7 +1,7 @@
 {
   "name": "Right click raid",
   "description": "Adds context menu on twitch allowing easy raid",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "icons": { "16": "images/Icon16.png",
              "48": "images/Icon48.png",
             "128":"images/Icon128.png" },

@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const zipdir = require('zip-dir');
 
 const platforms = ['Chrome','FireFox'];
 
@@ -89,6 +90,8 @@ platforms.forEach(platform =>{
   {
     copyFolderRecursiveSync(variantPath, buildPath);    
   }
+
+  zipdir(buildPath, { saveTo: `build/RightClickRaid(${platform}).zip` });
 });
 
 console.log(`Done`);
